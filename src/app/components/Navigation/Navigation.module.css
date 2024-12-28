@@ -1,0 +1,22 @@
+.navigation-container {
+  display: flex;
+  gap: 50%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-list-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.activeLink {
+  text-decoration: underline;
+}

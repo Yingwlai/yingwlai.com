@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.aside {
+  width: 25%;
+}
+
+.summary {
+  width: 100%;
+}
+
+.aside, .summary {
+  text-align: center;
+}

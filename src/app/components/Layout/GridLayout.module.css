@@ -1,0 +1,14 @@
+.grid {
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w-2 > * {
+  /* flex: 1 1 auto; */
+  flex: 50%;
+}
+
+.w-3 > * {
+  flex: 33.33%;
+}
