@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import Layout from "./components/Layout/Layout";
 import { BASE_URL_PATH } from "./constants/navigation";
 
