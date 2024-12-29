@@ -6,6 +6,7 @@ import Layout from '../components/Layout/Layout';
 import useGetNavigationItems from '../hooks/useGetNavigationItems';
 
 const AboutPage = () => {
+  console.log('checking process.env...', process.env);
   const { navigationItems } = useGetNavigationItems();
 
   return (
