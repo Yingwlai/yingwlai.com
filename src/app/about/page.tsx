@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import Summary from './components/Summary/Summary';
 
 import Layout from '../components/Layout/Layout';

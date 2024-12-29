@@ -1,5 +1,9 @@
+export const dynamic = 'force-static';
+
+import { NextResponse } from "next/server";
+
 export async function GET() {
-  return Response.json({ navigationItems: [
+  return NextResponse.json({ navigationItems: [
     {
       id: 'about-page',
       href: '/about',
