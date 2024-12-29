@@ -1,1 +1,1 @@
-export const BASE_URL_PATH = process.env.BASE_URL_PATH;
+export const BASE_URL_PATH = process.env.BASE_URL_PATH || 'http://localhost:3000';

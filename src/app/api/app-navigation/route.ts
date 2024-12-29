@@ -1,4 +1,4 @@
-export async function GET() {
+export const GET = async () => {
   return Response.json({ navigationItems: [
     {
       id: 'about-page',
@@ -20,5 +20,5 @@ export async function GET() {
       href: '/contact',
       text: 'contact'
     }
-  ] })
+  ] }, { status: 200 });
 }
