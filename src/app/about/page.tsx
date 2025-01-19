@@ -1,16 +1,15 @@
-'use client';
-
 import Summary from './components/Summary/Summary';
+import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
 
-import Layout from '../components/Layout/Layout';
-import useGetNavigationItems from '../hooks/useGetNavigationItems';
+import Layout from '../components/Layout/PageLayout';
 
 const AboutPage = () => {
-  const { navigationItems } = useGetNavigationItems();
-
   return (
-    <Layout navigationItems={navigationItems}>
+    <Layout>
       <Summary />
+      <Experience />
+      <Education />
     </Layout>
   );
 };

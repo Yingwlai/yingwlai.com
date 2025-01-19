@@ -1,13 +1,8 @@
-export const dynamic = 'force-dynamic';
+import Layout from '../components/Layout/PageLayout';
 
-import Layout from '../components/Layout/Layout';
-import { BASE_URL_PATH } from '../constants/navigation';
-
-const BlogPage = async () => {
-  const { navigationItems } = await fetch(`${BASE_URL_PATH}/api/app-navigation`).then((response) => response.json());
-
+const BlogPage = () => {
   return (
-    <Layout navigationItems={navigationItems}>
+    <Layout>
       <aside></aside>
       Blog page
     </Layout>

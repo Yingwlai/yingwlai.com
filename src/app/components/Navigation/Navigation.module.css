@@ -20,3 +20,7 @@
 .activeLink {
   text-decoration: underline;
 }
+
+.disabled {
+  pointer-events: none;
+}

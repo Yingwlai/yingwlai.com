@@ -1,0 +1,23 @@
+.rating-level-container {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: right;
+  width: 100%;
+}
+
+.rating-level {
+  border-radius: 50%;
+  border: 1px solid black;
+  /* height: 1em;
+  width: 1em; */
+  height: 10px;
+  width: 10px;
+}
+
+.half-rating {
+
+}
+
+.full-rating {
+  background-color: black;
+}

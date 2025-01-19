@@ -1,0 +1,9 @@
+aside.container {
+  text-align: left;
+}
+
+.tech-stack-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

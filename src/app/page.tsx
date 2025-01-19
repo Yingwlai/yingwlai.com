@@ -1,13 +1,10 @@
 export const dynamic = 'force-dynamic';
 
-import Layout from "./components/Layout/Layout";
-import { BASE_URL_PATH } from "./constants/navigation";
+import Layout from "./components/Layout/PageLayout";
 
-export default async function Home() {
-  const { navigationItems } = await fetch(`${BASE_URL_PATH}/api/app-navigation`).then((response) => response.json());
-
+export default function Home() {
   return (
-    <Layout navigationItems={navigationItems}>
+    <Layout>
       Homepage
     </Layout>
   );
