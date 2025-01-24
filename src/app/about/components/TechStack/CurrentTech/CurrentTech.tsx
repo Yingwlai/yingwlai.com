@@ -1,4 +1,5 @@
 import { ComponentProps } from 'react';
+import Link from 'next/link';
 
 import GridLayout from '@/app/components/Layout/GridLayout';
 
@@ -16,7 +17,7 @@ const CurrentTech: React.FC<CurrentTechProps> = () => {
       <GridLayout width={2}>
         {currentTechStackList.map(techStack => <div key={techStack.id}>{techStack.name}</div>)}
       </GridLayout>
-      <div>+</div>
+      <Link href="/about/past-tech">+</Link>
     </TechStackContainer>
   );
 };
